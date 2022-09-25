@@ -71,7 +71,7 @@ const USER_CONFIG = {
       // 所在省份
       province: '北京',
       // 所在城市
-      city: '东城',
+      city: '北京',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '02-13',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -86,7 +86,7 @@ const USER_CONFIG = {
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '爸爸', year: '1998', date: '02-28',
+          type: '生日', name: '坏蜀黍', year: '1998', date: '02-28',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -235,7 +235,7 @@ const USER_CONFIG = {
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
   PROVINCE: '北京',
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: '东城',
+  CITY: '北京',
 
   /** 重要节日相关 */
 
@@ -259,14 +259,14 @@ const USER_CONFIG = {
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
     {
-      type: '*生日', name: '老婆', year: '2002', date: '01-02', isShowAge: true,
+      type: '*生日', name: '小乐宝', year: '2002', date: '01-02', isShowAge: true,
     },
     {
       type: '节日', name: '相爱日期', year: '2019', date: '01-19',
     },
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     {
-      type: '生日', name: '爸爸', year: '1998', date: '02-28', isShowAge: true,
+      type: '生日', name: '坏蜀黍', year: '1998', date: '02-28', isShowAge: true,
     }
     // 你可以不断按格式往下增加
     // ...
