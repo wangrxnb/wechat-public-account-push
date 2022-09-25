@@ -29,13 +29,13 @@ const USER_CONFIG = {
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
     earthyLoveWords: false,
     // 朋友圈文案
-    momentCopyrighting: false,
+    momentCopyrighting: true,
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
@@ -86,13 +86,13 @@ const USER_CONFIG = {
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '坏蜀黍生日', year: '1998', date: '02-28',
+          type: '生日', name: '爸爸', year: '1998', date: '02-28',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2019-01-19' },
+        { keyword: 'love_day', date: '2019-01-19' } //,
         // 结婚纪念日
         // { keyword: 'marry_day', date: '2022-09-09' },
         // 退伍日
@@ -212,7 +212,7 @@ const USER_CONFIG = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'PW4xXMOS6vp2J3EyC0EHEGwZAuEpeh2Yl_vJ2leZEBQ',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -220,7 +220,7 @@ const USER_CONFIG = {
       // 一般都填自己
       name: '自己',
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oTVHL55lbMu0Clv9AHujsxbf9-DM'
     }
     // 你可以不断按格式往下增加
     // ...
@@ -233,9 +233,9 @@ const USER_CONFIG = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: '广东',
+  PROVINCE: '北京',
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: '惠州',
+  CITY: '东城',
 
   /** 重要节日相关 */
 
@@ -259,17 +259,14 @@ const USER_CONFIG = {
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
     {
-      type: '*生日', name: '老婆', year: '1996', date: '09-09', isShowAge: true,
+      type: '*生日', name: '老婆', year: '2002', date: '01-02', isShowAge: true,
     },
     {
-      type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
+      type: '节日', name: '相爱日期', year: '2019', date: '01-19',
     },
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     {
-      type: '生日', name: '李四', year: '1996', date: '09-31', isShowAge: true,
-    },
-    {
-      type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
+      type: '生日', name: '爸爸', year: '1998', date: '02-28', isShowAge: true,
     }
     // 你可以不断按格式往下增加
     // ...
@@ -290,11 +287,11 @@ const USER_CONFIG = {
    * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    { keyword: 'love_day', date: '2022-09-08' },
+    { keyword: 'love_day', date: '2019-01-19' } //,
     // 结婚纪念日
-    { keyword: 'marry_day', date: '2022-09-09' },
+    // { keyword: 'marry_day', date: '2022-09-09' },
     // 退伍日
-    { keyword: 'ex_day', date: '2022-09-10' }
+    // { keyword: 'ex_day', date: '2022-09-10' }
     // 你可以不断按格式往下增加
     // ...
   ],
