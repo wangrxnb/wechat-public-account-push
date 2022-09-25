@@ -7,12 +7,12 @@ const USER_CONFIG = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: '',
+  APP_ID: 'wxc66afb2a7b7b317f',
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: '',
+  APP_SECRET: '30682e3d12466a1a870562dc535b3d85',
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -63,17 +63,17 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '老婆0',
+      name: '小乐宝',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oTVHL5xGOXWX4A1CKMh329MxAkdQ',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'PW4xXMOS6vp2J3EyC0EHEGwZAuEpeh2Yl_vJ2leZEBQ',
       // 所在省份
-      province: '广东',
+      province: '北京',
       // 所在城市
-      city: '肇庆',
+      city: '东城',
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '02-13',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
@@ -82,7 +82,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '老婆', year: '1996', date: '09-09',
+          type: '*生日', name: '小乐宝', year: '2002', date: '01-02',
         },
         {
           type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
