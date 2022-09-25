@@ -84,25 +84,19 @@ const USER_CONFIG = {
         {
           type: '*生日', name: '小乐宝', year: '2002', date: '01-02',
         },
-        {
-          type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
-        },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
-        },
-        {
-          type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
+          type: '生日', name: '坏蜀黍生日', year: '1998', date: '02-28',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2019-01-19' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        // { keyword: 'marry_day', date: '2022-09-09' },
         // 退伍日
-        { keyword: 'ex_day', date: '2022-09-10' }
+        // { keyword: 'ex_day', date: '2022-09-10' }
       ],
       // 课程表相关配置
       // 如果courseSchedule不存在或者为空（null）则认为没有课程
